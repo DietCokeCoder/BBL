@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Background image */
+    background-image: url("bblphotos/Ball1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* DARK OVERLAY (makes text readable) */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.55);
+    z-index: -1;
+}
+
+/* TIMER */
+#timer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+/* BLOCKQUOTES */
+blockquote {
+    margin: 15px auto;
+    padding: 10px 20px;
+    font-style: italic;
+    border-left: 3px solid white;
+    display: inline-block;
+}
+
+/* SECTIONS */
+section {
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 10px;
+}
+
+/* LISTS */
+ol, ul {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* LINKS */
+a {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* FOOTER STYLE (for bottom links) */
+p {
+    margin: 10px;
+}
+
+/* RESPONSIVE (mobile friendly) */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    ol, ul {
+        font-size: 16px;
+    }
+}
