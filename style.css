@@ -134,6 +134,13 @@ h1 {
     color: rgb(243, 245, 243);
     text-decoration: underline;
 }
+
+.league-names h3 {
+    font-size: 30px;
+    color: rgb(245, 245, 243);
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
 /* SECTIONS */
 section {
     margin: 30px auto;
