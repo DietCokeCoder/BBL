@@ -54,6 +54,9 @@ h1 {
     text-align: center;
     margin: 20px 0;
 }
+header p:first-of-type {
+    margin-bottom: 100px;
+}
 
 /* BLOCKQUOTES */
 .left-quote {
