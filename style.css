@@ -61,7 +61,6 @@ h1 {
    left: -300px;
    top: 300px;
    width: 500px;
-   font-style: italic;
    
 
 }
@@ -71,9 +70,49 @@ h1 {
    right: -300px;
    top: 300px;
    width: 500px;
-   font-style: italic;
 }
 
+.quote-text {
+    font-style: italic;
+}
+.quote-author {
+    margin-top: 10px;
+
+
+}
+#meet-the-league {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#meet-the-league h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.league-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.league-grid img {
+    width: 150px;
+    height: auto;
+
+    margin: 0 auto;
+    display: block;
+}
+#meet-the-league h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: rgb(245, 227, 27);
+    text-decoration: underline;
+}
 /* SECTIONS */
 section {
     margin: 30px auto;
