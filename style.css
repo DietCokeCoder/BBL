@@ -58,7 +58,7 @@ h1 {
 /* BLOCKQUOTES */
 .left-quote {
     position: absolute;
-   left: -100px;
+   left: -200px;
    top: 300px;
    width: 500px;
    
@@ -67,7 +67,7 @@ h1 {
 
 .right-quote {
     position: absolute;
-   right: -100px;
+   right: -200px;
    top: 300px;
    width: 500px;
 }
@@ -90,27 +90,48 @@ h1 {
     margin-bottom: 30px;
 }
 
+.league-container {
+    display: flex;
+    justify-content: center;
+    alighn-items: flex;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.league-names {
+    text-align: left;
+    font-size: 28px;
+    min-width: 300px;
+    padding-left: 40px;
+}
+
+.league-names li {
+    margin-bottom: 6px;
+}  
+
+.champion {
+    color: gold;
+    font-weight: bold;
+}
+
 .league-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 150px);
     gap: 20px;
-
-    max-width: 1000px;
-    margin: 0 auto;
-    justify-content: center;
 }
 
 .league-grid img {
     width: 150px;
     height: auto;
-
     margin: 0 auto;
     display: block;
 }
+
 #meet-the-league h2 {
     font-size: 48px;
     margin-bottom: 30px;
-    color: rgb(245, 227, 27);
+    color: rgb(243, 245, 243);
     text-decoration: underline;
 }
 /* SECTIONS */
@@ -130,7 +151,7 @@ ol, ul {
 
 /* LINKS */
 a {
-    color: #00d4ff;
+    color: #ff0000;
     text-decoration: none;
     font-weight: bold;
 }
