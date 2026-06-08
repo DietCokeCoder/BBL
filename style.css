@@ -216,3 +216,12 @@ p {
         width: 120px;
     }
 }
+    #timer {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+
+    .body {
+        background-position: center top;
+    }
