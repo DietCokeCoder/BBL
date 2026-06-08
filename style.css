@@ -57,7 +57,9 @@ h1 {
 header p:first-of-type {
     margin-bottom: 100px;
 }
-
+header p:nth-of-type(2) {
+    margin-bottom: 100px;
+}   
 /* BLOCKQUOTES */
 .left-quote {
     position: absolute;
@@ -225,7 +227,8 @@ p {
 }
 @media (max-width: 768px) {
     body {
-        background-size: contain;
-        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 60% center;
+        background-attachment: scroll;
     }
 }
