@@ -227,8 +227,8 @@ p {
 @media (max-width: 768px) {
     body {
         background-size: cover;
-        background-position: 60% center;
-        background-attachment: scroll;
+        background-position: 20% center;
+        background-attachment: fixed;
     }
 }
 @media (max-width: 768px) {
