@@ -232,3 +232,8 @@ p {
         background-attachment: scroll;
     }
 }
+@media (max-width: 768px) {
+    #meet-the-league h2 {
+        display: none;
+    }
+}
