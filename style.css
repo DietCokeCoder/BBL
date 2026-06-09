@@ -5,6 +5,7 @@ body {
     color: white;
     text-align: center;
     line-height: 1.6;
+    padding-top: 20px;
 }
 .button-link {
     display: inline-block;
@@ -19,15 +20,7 @@ body {
     transition: transform 0.2s ease,
                 background-color 0.2s ease;
 }
-#timer {
-    width: 100%;
-    max-width: 900px;
-    margin: 20px auto;
-}
 
-.tickcounter {
-    min-height: 140px;   /* important */
-}
 
 .button-link:hover {
     background-color: #ff0000;
