@@ -6,6 +6,7 @@ body {
     text-align: center;
     line-height: 1.6;
     padding-top: 20px;
+    min-height: 100vh;
 }
 .button-link {
     display: inline-block;
@@ -20,7 +21,10 @@ body {
     transition: transform 0.2s ease,
                 background-color 0.2s ease;
 }
-
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
 
 .button-link:hover {
     background-color: #ff0000;
@@ -63,6 +67,8 @@ body::after {
     margin-top: 20px;
     margin-bottom: 20px;
     display: block; 
+    z-index: 2;
+    padding-top: 10px;
 }
 
 /* HEADER */
@@ -71,6 +77,7 @@ header {
     padding: 20px;
     max-width: 800px;
     margin: auto;
+    z-index: 1;
 }
 
 h1 {
